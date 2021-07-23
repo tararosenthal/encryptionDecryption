@@ -3,7 +3,7 @@
 
 ### Arguments are supplied in token and value pairs where value follows token as a separate argument. Arguments may include any or all of the following:
 
-- -mode enc or dec            
+- -mode "enc" or "dec"            
   - specifies whether to encrypt or decrypt data
 - -key any int                
   - specifies number of spaces to shift each character in data while encrypting/decrypting
@@ -13,7 +13,7 @@
   - specifies file to read data from for encryption/decryption
 - -out .txt or .doc file path 
   - specifies file to write encrypted/decrypted data to
-- -alg shift or unicode       
+- -alg "shift" or "unicode"       
   - specifies algorithm for encrypting/decrypting data
 
 ### Encryption and decryption is not true encryption but rather encoding according to key value and algorithm type provided by user.
